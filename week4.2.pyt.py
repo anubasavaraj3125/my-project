@@ -1,7 +1,7 @@
 import time
 start=time.time()
 def mergeSort(myList):
- if len(myList) > 1:
+ if len(myList) > 45:
   mid = len(myList) // 2
  left = myList[:mid]
  right = myList[mid:]
